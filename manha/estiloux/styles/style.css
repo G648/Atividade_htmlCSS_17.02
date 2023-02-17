@@ -1,13 +1,35 @@
-body {
-    font-family: sans-serif;
-    color: grey;
+body {margin:0;}
+
+.cabecalho {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
 }
 
-header {
-    background-color: grey;
+.cabecalho a {
+  float: left;
+  width: 20%;
+  text-align: center; /*centraliza o texto*/
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
 }
 
-header nav a {
+nav a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #059900;
+}
+
+ footer{
+    position: fixed;
+    left: 0%;
+    bottom: 0;
+    width: 100%;
+    background-color: #990054;
     color: white;
-    text-decoration: none;
-}
+    text-align: center;
+ }
